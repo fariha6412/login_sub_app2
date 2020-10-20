@@ -14,7 +14,6 @@ class HomePage extends StatelessWidget {
         toolbarHeight: 70.0,
         centerTitle: true,
         title: Text('Gloomy Chat', style: TextStyle(color: Colors.deepPurple, fontSize: 26.0),),
-        ],
       ),
       body: SingleChildScrollView(
         child: Column(
