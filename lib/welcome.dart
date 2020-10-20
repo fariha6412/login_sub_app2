@@ -13,13 +13,7 @@ class HomePage extends StatelessWidget {
         automaticallyImplyLeading: true,
         toolbarHeight: 70.0,
         centerTitle: true,
-        leading: Image.asset('images/logo.png'),
         title: Text('Gloomy Chat', style: TextStyle(color: Colors.deepPurple, fontSize: 26.0),),
-        actions: <Widget> [
-          Icon(
-            FontAwesomeIcons.accusoft,
-            color: Colors.black87,
-          ),
         ],
       ),
       body: SingleChildScrollView(
